@@ -6,6 +6,9 @@ on:
 
 jobs:
   action:
+    permissions:
+      issues: write
+
     runs-on: ubuntu-latest
 
     steps:
